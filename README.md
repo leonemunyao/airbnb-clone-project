@@ -33,3 +33,8 @@ This project uses the following teck track. `Django`, `MySQL` and `GraphQL`
 
 * Quality Assuarance Engineer. QA Engineer verifies whether an application meets the requirements. 
  
+
+## Technology Track
+
+* Django - This is a Python Programming Language used for development of the backend logic of an application. Its main purpose to link the Database and the Front-End.
+* MySQL, GraphQL && Postgres - This are relational database management systems.
