@@ -31,10 +31,37 @@ This project uses the following teck track. `Django`, `MySQL` and `GraphQL`
 
 * Back-End Developer. They implement the core of an app, its algorithms and business logic.
 
-* Quality Assuarance Engineer. QA Engineer verifies whether an application meets the requirements. 
+* Quality Assuarance Engineer. QA Engineer verifies whether an application meets the requirements.
+
+* Database Administrator. Manages database design, indexing and optimization.
+
+* DevOps Engineer. Handles deployment, monitoring and scaling of the backend services.
  
 
 ## Technology Track
 
 * Django - This is a Python Programming Language used for development of the backend logic of an application. Its main purpose to link the Database and the Front-End.
 * MySQL, GraphQL && Postgres - This are relational database management systems.
+* CI/CD Pipelnes -  These are automated pipelines for testing and deploying code chnages.
+* Celery - This is for handling asynchronous tasks such as sending notifications or processing payments.
+* Redis - This is for caching and session management.
+* Docker -  This is a containerization tool for consistent development and deployment environments.
+
+## Database Design
+
+The Key Entities of the Database are as follows;
+* Users: A user can have multiple bookings and multiple listings. A user can also do payment and reviews.
+* Property: Properties are owned by users and can be booked by users.
+* Booking: A user can book a BnB and a BnB can be booked by multiple users.
+* Payment: A user can make payment for a booking.
+* Reviews: A user can leave a review for a BnB.
+
+## Feature Breakdown
+
+* User Management: This feature is to enable user to do their registration and profile management. The aim of this feature is to enable learners to learn how to create user authentication endpoints that enables user to register, authenticate and manage their profiles.
+* Property Management: This is a feature that enables property listing, updates and retrieval of property details. This is to enable learners to create an endpoint that has the CRUD operations for property listing.
+* Booking System:  The main aim of this feature to enable users to reserve properties and manage their booking details. This feature will enable learners to learn how to create a booking mechanism to make, update, and manage bookings including check-in and check-out details.
+* Payment Processing: This enables a user to make payment for a booking. This will enable learners to learn how to intergrate a payment system to handle transactions and record payment details.
+* Review System: This is to allow users to leave reviews and ratings of properties. Learners will create an endpoint to post and manage reviews.
+* Data Optimization: This is to ensure efficient data retrieval and storage through database optimizations. This is to enable learners to learn how to create a fast, secure, modern database.
+
