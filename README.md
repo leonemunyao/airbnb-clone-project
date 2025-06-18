@@ -68,3 +68,12 @@ The Key Entities of the Database are as follows;
 ## API Security
 
 API Security plays a crucial role in this project development. In a system, a user can be a property owner or just a user booking property. This two users should have different roles in the project. A user who is a property owner can create and update a listing in the platform. Their permissions would be the same and that's where API Security plays a crucial role. API security ensures only allowed users can access and manipulate certain data. This prevents unauthorized access to sensitive data.
+
+## CI/CD Pipeline
+
+This refers to a series of automated steps that streamline the software development process from code changes to deployment. CI stands for Continoues Intergration while CD stands for Continous Deployment.
+
+* CI - This automates merging of code changes from multiple developers into a central repository. This is useful to detect intergration issues early.
+* CD - This automates the release of code changes to various envrionments, including testing and production.
+
+The two conncepts are useful to ensure to ensure that no conflicts in the code that could make the application to crash.
