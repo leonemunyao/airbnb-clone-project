@@ -65,3 +65,6 @@ The Key Entities of the Database are as follows;
 * Review System: This is to allow users to leave reviews and ratings of properties. Learners will create an endpoint to post and manage reviews.
 * Data Optimization: This is to ensure efficient data retrieval and storage through database optimizations. This is to enable learners to learn how to create a fast, secure, modern database.
 
+## API Security
+
+API Security plays a crucial role in this project development. In a system, a user can be a property owner or just a user booking property. This two users should have different roles in the project. A user who is a property owner can create and update a listing in the platform. Their permissions would be the same and that's where API Security plays a crucial role. API security ensures only allowed users can access and manipulate certain data. This prevents unauthorized access to sensitive data.
