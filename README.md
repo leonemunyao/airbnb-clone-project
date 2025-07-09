@@ -38,7 +38,7 @@ This project uses the following teck track. `Django`, `MySQL` and `GraphQL`
 * DevOps Engineer. Handles deployment, monitoring and scaling of the backend services.
  
 
-## Technology Track
+## Technology Stack
 
 * Django - This is a Python Programming Language used for development of the backend logic of an application. Its main purpose to link the Database and the Front-End.
 * MySQL, GraphQL && Postgres - This are relational database management systems.
